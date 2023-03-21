@@ -12,6 +12,7 @@ Una vez éste sea instalado, podemos ejecutar Bitcoin Core directamente, es muy 
   - Utilizaremos un directorio personalizado como destino para nuestro nodo, por ejemplo: D:\Bitcoin24
   
   - La última línea de la ventana que tendremos abierta dice así "Limitar el almacenamiento de la cadena de bloque a...". Debemos NO hacer tick en la casilla, pues lo que buscamos es tener la cadena de bloques completa en nuestro ordenador.
+
 ![image](https://user-images.githubusercontent.com/114155448/226586134-9a6c51e0-42a4-44e3-9334-ce785caa2570.png)
 
   - Pulsamos OK y normalmente saltará el firewall de Windows. Hemos de permitir acceso.
