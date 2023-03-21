@@ -24,3 +24,6 @@ Una vez nuestro nodo está completamente sincronizado con la red, la ventana de 
 ![image](https://user-images.githubusercontent.com/114155448/226587838-1f3e4191-a378-4829-9a26-f48a95507b61.png)
 
 Aquí terminaríamos con éxito la tarea de tener un nodo totalmente sincronizado con la red.
+
+El siguiente paso que debemos hacer es indexar los bloques de la cadena. Todos esos bloques estarán ya en nuestro ordenador en la carpeta que hayamos elegido para guardar nuestro nodo, por tanto vamos a ver cómo hacerlo.
+    1. 
