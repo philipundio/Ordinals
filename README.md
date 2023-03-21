@@ -41,5 +41,5 @@ Aquí terminaríamos con éxito la tarea de tener un nodo totalmente sincronizad
 
 ![image](https://user-images.githubusercontent.com/114155448/226599344-17cca59b-daf5-4322-9a4c-296060fe011e.png)
 
-    
+   En las líneas de código que vemos la parte más importante es "height" pues define el número de bloque por el que vamos. Podemos chequear cuánto nos queda para llegar a una indexación total comparando con la mempool actual aquí: https://mempool.space/
     
