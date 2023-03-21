@@ -2,8 +2,8 @@
 Creación de un nodo de Bitcoin e instalación de cartera Ord para inscribir de manera local en Windows.
 
 
->En primer lugar nos debemos descargar la versión de Bitcoin Core 24.0.1 ya que es ésta la que interactúa con la waller Ord.
-El enlace para proceder con la descarga es el siguiente. https://bitcoincore.org/en/download/
+> # **En primer lugar nos debemos descargar la versión de Bitcoin Core 24.0.1 ya que es ésta la que interactúa con la waller Ord.
+El enlace para proceder con la descarga es el siguiente. https://bitcoincore.org/en/download/ **
 
 Una vez descargado el archivo zip, hay que descomprimirlo en la carpeta donde se quiere tener el programa instalado. **Se recomienda fervientemente que la carpeta que se elija para la instalación de Bitcoin Core esté en un disco SSD si fuese posible. El tamaño de disco necesario será de 1TB para ir seguros.**
 
@@ -27,7 +27,7 @@ Una vez nuestro nodo está completamente sincronizado con la red, la ventana de 
 Aquí terminaríamos con éxito la tarea de tener un nodo totalmente sincronizado con la red. Procedemos a cerrar la aplicación.
 
 
->El siguiente paso que debemos hacer es indexar los bloques de la cadena. Todos esos bloques estarán ya en nuestro ordenador en la carpeta que hayamos elegido para guardar nuestro nodo, por tanto vamos a ver cómo hacerlo.
+># **El siguiente paso que debemos hacer es indexar los bloques de la cadena. Todos esos bloques estarán ya en nuestro ordenador en la carpeta que hayamos elegido para guardar nuestro nodo, por tanto vamos a ver cómo hacerlo.**
 
 1. Iremos a nuestra carpeta donde tengamos instalado Bitcoin Core y dentro de ella cliquearemos en la carpeta llamada "daemon" (es posible que también se llame bin). Una vez dentro buscaremos el archivo "bitcoind" y haciendo click derecho seleccionaremos "Crear acceso directo" y pondremos este icono donde más conveniente sea. Os recomendamos el escritorio.
     
@@ -57,7 +57,7 @@ Cuando veamos que nuestro height es el mismo que el que encontramos en la mempoo
 
 Una vez hecho esto, tendremos nuestro nodo completamente indexado. Bravo!!
 
-> Instalación Ord Wallet
+> # **Instalación Ord Wallet**
 
 Una vez tenemos nuestro nodo sincronizado e indexado, nos queda descargarnos e instalar nuestra Ord Wallet.
 Lo haremos directamente desde el sitio oficial de Ordinals en el siguiente enlace https://github.com/casey/ord/releases/tag/0.5.1. En el apartado de assets seleccionaremos el siguiente archivo "ord-0.5.1-x86_64-pc-windows-msvc.zip".
