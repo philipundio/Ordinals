@@ -22,7 +22,7 @@ Bitcoin core en estos momentos empezará a descargar todos los bloques de la cad
 
 Una vez nuestro nodo está completamente sincronizado con la red, la ventana de Bitcoin Core lucirá como en la siguiente imagen:
 
-![image](https://user-images.githubusercontent.com/114155448/226587838-1f3e4191-a378-4829-9a26-f48a95507b61.png)
+                      ![image](https://user-images.githubusercontent.com/114155448/226732428-e3c737ab-a791-468d-88c6-8a767c02947f.png)
 
 Aquí terminaríamos con éxito la tarea de tener un nodo totalmente sincronizado con la red. Procedemos a cerrar la aplicación.
 
