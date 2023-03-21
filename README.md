@@ -59,6 +59,33 @@ Una vez hecho esto, tendremos nuestro nodo completamente indexado. Bravo!!
 
 > Instalación Ord Wallet
 
+Una vez tenemos nuestro nodo sincronizado e indexado, nos queda descargarnos e instalar nuestra Ord Wallet.
+Lo haremos directamente desde el sitio oficial de Ordinals en el siguiente enlace https://github.com/casey/ord/releases/tag/0.5.1. En el apartado de assets seleccionaremos el siguiente archivo "ord-0.5.1-x86_64-pc-windows-msvc.zip".
+Recomendamos extraer ord wallet dentro de la carpeta de Bitcoin Core y nombrarla ORD, por razones prácticas.
+
+Una vez extraída en la carpeta de destino, la abriremos a través del cmd. Lo que nos dará algo como esto (importante, debemos tener bitcoind abierto):
+
+![image](https://user-images.githubusercontent.com/114155448/226613306-7cee6848-8cb6-476e-a45a-fdd2b93f0e4a.png)
+
+El primer paso será crear una cartera con el siguiente comando: ord wallet create
+Es posible que volvamos a tener un problema de RPC, lo que solucionaremos del mismo modo que antes, con nuestro archivo .cookie. Por lo tanto nuestra línea de código debe ser "ord --cookie-file (ctrl+V) wallet create"
+Cuando el paso sea exitoso, recibiremos una clave pnemotécnica que deberemos guardar para un posible recovery futuro.
+
+Ahora vamos a indexar los bloques desde ord wallet. Este paso es necesario ya que ord wallet hace un tracking de cada satoshi contenido en la cadena de bloques, pues son éstos los que llevarán inscritos nuestros Ordinals. Para ello, en la consola escribiremos: "ord wallet balance". Este paso lleva de nuevo bastantes horas, por lo que recomendamos dejarlo correr en segundo plano mientras hace la indexación. Lucirá como sigue:
+
+![image](https://user-images.githubusercontent.com/114155448/226623905-c8a57478-32da-45ed-9d47-77c7c53ca834.png)
+
+Una vez los bloques han sido indexados, recibiremos la respuesta del balance que debería ser "D:\Bitcoin24\ord>ord wallet balance
+
+{
+  "cardinal": 0
+}"
+
+Esto es lógico pues no hemos enviado aún fondos a nuestra cartera. Para ello, utilizaremos el siguiente comando: "ord wallet receive". Esto nos devolverá una dirección de cartera que comenzará por bc1p, característica de las direcciones de Taproot.
+
+
+
+
 
 
    
