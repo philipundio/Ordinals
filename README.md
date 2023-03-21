@@ -1,6 +1,7 @@
 # Ordinals
 Creación de un nodo de Bitcoin e instalación de cartera Ord para inscribir de manera local en Windows.
 
+
 >En primer lugar nos debemos descargar la versión de Bitcoin Core 24.0.1 ya que es ésta la que interactúa con la waller Ord.
 El enlace para proceder con la descarga es el siguiente. https://bitcoincore.org/en/download/
 
@@ -24,6 +25,7 @@ Una vez nuestro nodo está completamente sincronizado con la red, la ventana de 
 ![image](https://user-images.githubusercontent.com/114155448/226587838-1f3e4191-a378-4829-9a26-f48a95507b61.png)
 
 Aquí terminaríamos con éxito la tarea de tener un nodo totalmente sincronizado con la red. Procedemos a cerrar la aplicación.
+
 
 >El siguiente paso que debemos hacer es indexar los bloques de la cadena. Todos esos bloques estarán ya en nuestro ordenador en la carpeta que hayamos elegido para guardar nuestro nodo, por tanto vamos a ver cómo hacerlo.
 
@@ -54,6 +56,8 @@ Cuando veamos que nuestro height es el mismo que el que encontramos en la mempoo
   ![image](https://user-images.githubusercontent.com/114155448/226607028-5ea9129d-6bfd-458c-94f0-df28d8d231d9.png)
 
 Una vez hecho esto, tendremos nuestro nodo completamente indexado. Bravo!!
+
+> Instalación Ord Wallet
 
 
 
