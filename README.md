@@ -26,4 +26,11 @@ Una vez nuestro nodo está completamente sincronizado con la red, la ventana de 
 Aquí terminaríamos con éxito la tarea de tener un nodo totalmente sincronizado con la red.
 
 El siguiente paso que debemos hacer es indexar los bloques de la cadena. Todos esos bloques estarán ya en nuestro ordenador en la carpeta que hayamos elegido para guardar nuestro nodo, por tanto vamos a ver cómo hacerlo.
-    1. 
+
+    1. Iremos a nuestra carpeta donde tengamos instalado Bitcoin Core y dentro de ella cliquearemos en la carpeta llamada "daemon" (es posible que también se llame bin). Una vez dentro buscaremos el archivo "bitcoind" y haciendo click derecho seleccionaremos "Crear acceso directo" y pondremos este icono donde más conveniente sea. Os recomendamos el escritorio.
+    
+    2. Una vez nuestro acceso directo está creado, haremos click derecho sobre él y pincharemos en propiedades donde nos aparecerá la siguiente ventana.
+    
+    ![image](https://user-images.githubusercontent.com/114155448/226595198-db58c94e-8480-4b39-834e-fe94eca6ba94.png)
+
+    En destino pondremos lo siguiente: **D:\Bitcoin24\daemon\bitcoind.exe -datadir=D:\Bitcoin24 -txindex=1**
