@@ -17,4 +17,10 @@ Una vez éste sea instalado, podemos ejecutar Bitcoin Core directamente, es muy 
 
   - Pulsamos OK y normalmente saltará el firewall de Windows. Hemos de permitir acceso.
 
-Bitcoin core en estos momentos empezará a descargar todos los bloques de la cadena Bitcoin desde su creación. Este paso puede tomar fácilmente 1 día, dependerá principalmente de dos factores: nuestra conexión a internet y la capacidad de "write" que tenga el disco duro donde estemos descargando el nodo.
+Bitcoin core en estos momentos empezará a descargar todos los bloques de la cadena Bitcoin desde su creación. Este paso puede tomar fácilmente 1 día, dependerá principalmente de dos factores: nuestra conexión a internet y la capacidad de "write" que tenga el disco duro donde estemos descargando el nodo. Se puede seguir utilizando el ordenador sin problema y dejando este proceso en segundo plano minimizado.
+
+Una vez nuestro nodo está completamente sincronizado con la red, la ventana de Bitcoin Core lucirá como en la siguiente imagen:
+
+![image](https://user-images.githubusercontent.com/114155448/226587838-1f3e4191-a378-4829-9a26-f48a95507b61.png)
+
+Aquí terminaríamos con éxito la tarea de tener un nodo totalmente sincronizado con la red.
