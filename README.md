@@ -23,14 +23,23 @@ Una vez nuestro nodo está completamente sincronizado con la red, la ventana de 
 
 ![image](https://user-images.githubusercontent.com/114155448/226587838-1f3e4191-a378-4829-9a26-f48a95507b61.png)
 
-Aquí terminaríamos con éxito la tarea de tener un nodo totalmente sincronizado con la red.
+Aquí terminaríamos con éxito la tarea de tener un nodo totalmente sincronizado con la red. Procedemos a cerrar la aplicación.
 
 >El siguiente paso que debemos hacer es indexar los bloques de la cadena. Todos esos bloques estarán ya en nuestro ordenador en la carpeta que hayamos elegido para guardar nuestro nodo, por tanto vamos a ver cómo hacerlo.
 
-    1. Iremos a nuestra carpeta donde tengamos instalado Bitcoin Core y dentro de ella cliquearemos en la carpeta llamada "daemon" (es posible que también se llame bin). Una vez dentro buscaremos el archivo "bitcoind" y haciendo click derecho seleccionaremos "Crear acceso directo" y pondremos este icono donde más conveniente sea. Os recomendamos el escritorio.
+1. Iremos a nuestra carpeta donde tengamos instalado Bitcoin Core y dentro de ella cliquearemos en la carpeta llamada "daemon" (es posible que también se llame bin). Una vez dentro buscaremos el archivo "bitcoind" y haciendo click derecho seleccionaremos "Crear acceso directo" y pondremos este icono donde más conveniente sea. Os recomendamos el escritorio.
     
-    2. Una vez nuestro acceso directo está creado, haremos click derecho sobre él y pincharemos en propiedades donde nos aparecerá la siguiente ventana.
+2. Una vez nuestro acceso directo está creado, haremos click derecho sobre él y pincharemos en propiedades donde nos aparecerá la siguiente ventana.
     
     ![image](https://user-images.githubusercontent.com/114155448/226595198-db58c94e-8480-4b39-834e-fe94eca6ba94.png)
 
-    En destino pondremos lo siguiente: **D:\Bitcoin24\daemon\bitcoind.exe -datadir=D:\Bitcoin24 -txindex=1**
+    En destino pondremos lo siguiente: **D:\Bitcoin24\daemon\bitcoind.exe -datadir=D:\Bitcoin24 -txindex=1**. El primer comando "-datadir=D:\Bitcoin24" Será la carpeta donde tengamos instalado nuestro nodo, en nuestro caso D:\Bitcoin24. El segundo comando a añadir "-txindex=1" es el comando que le dice a bitcoind que debe indexar los bloques una vez ejecutemos éste.
+    
+    Este paso es necesario ya que bitcoind sin estos matices que acabamos de añadir, volvería a descargar por completo la cadena de bloques y de este modo, le estamos mostrando dónde está descargada y pidiendo que la "indexe". Durante todo este proceso Bitcoin Core ha de permanecer cerrado.
+    
+3. Abriremos el programa "bitcoind" desde nuestro acceso directo. Ahora mismo el programa está indexando todos los bloques contenidos en nuestro disco duro. Esta tarea puede tardar mucho tiempo, incluso más que la descarga del nodo. El programa ha de lucir como la siguiente imagen:
+
+![image](https://user-images.githubusercontent.com/114155448/226599344-17cca59b-daf5-4322-9a4c-296060fe011e.png)
+
+    
+    
