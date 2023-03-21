@@ -15,10 +15,10 @@ Una vez éste sea instalado, podemos ejecutar Bitcoin Core directamente, es muy 
   - La última línea de la ventana que tendremos abierta dice así "Limitar el almacenamiento de la cadena de bloque a...". Debemos NO hacer tick en la casilla, pues lo que buscamos es tener la cadena de bloques completa en nuestro ordenador.
 
 <p align="center" width="100%">
-    <img width="33%" src="[https://i.stack.imgur.com/RJj4x.png](https://user-images.githubusercontent.com/114155448/226586134-9a6c51e0-42a4-44e3-9334-ce785caa2570.png)"> 
+    ![image](https://user-images.githubusercontent.com/114155448/226586134-9a6c51e0-42a4-44e3-9334-ce785caa2570.png) 
 </p>
 
-
+![image](https://user-images.githubusercontent.com/114155448/226586134-9a6c51e0-42a4-44e3-9334-ce785caa2570.png)
 
   - Pulsamos OK y normalmente saltará el firewall de Windows. Hemos de permitir acceso.
 
