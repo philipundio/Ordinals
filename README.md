@@ -1,5 +1,5 @@
 # Ordinals
-Creación de un nodo de Bitcoin e instalación de cartera Ord para inscribir de manera local en Windows.
+Creación de un nodo de Bitcoin e instalación de cartera Ord para inscribir de manera local Ordinals en Windows.
 
 
 ## Descargar la versión de Bitcoin Core 24.0.1
