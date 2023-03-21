@@ -85,6 +85,8 @@ Una vez los bloques han sido indexados, recibiremos la respuesta del balance que
 
 Esto es lógico pues no hemos enviado aún fondos a nuestra cartera. Para ello, utilizaremos el siguiente comando: "ord wallet receive". Esto nos devolverá una dirección de cartera que comenzará por bc1p, característica de las direcciones de Taproot.
 
+Con todos estos pasos, estaríamos listos para empezar a inscribir Ordinals en nuestros satoshis! :)
+
 
 
 
