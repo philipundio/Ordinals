@@ -42,4 +42,20 @@ Aquí terminaríamos con éxito la tarea de tener un nodo totalmente sincronizad
 ![image](https://user-images.githubusercontent.com/114155448/226599344-17cca59b-daf5-4322-9a4c-296060fe011e.png)
 
    En las líneas de código que vemos la parte más importante es "height" pues define el número de bloque por el que vamos. Podemos chequear cuánto nos queda para llegar a una indexación total comparando con la mempool actual aquí: https://mempool.space/
+   
+Cuando veamos que nuestro height es el mismo que el que encontramos en la mempool, lo vamos a corroborar a través de nuestro nodo de la siguiente manera (importante: bitcoind debe permanecer abierto):
+
+- Nos dirigimos de nuestro a nuestra carpeta donde tenemos instalado el nodo, y entraremos en la carpeta "daemon" o "bin". Una vez dentro, la ejecutaremos desde el cmd de windows, y en el terminal escribiremos lo siguiente: "bitcoin-cli getblockcount" donde obtendremos algo como esto:
+
+![image](https://user-images.githubusercontent.com/114155448/226605774-91850a6f-a396-48f8-9188-aa2c8af36bd1.png)
+  
+  Es posible, que nos devuelva un error de RPC cookie, si este fuera el caso, nos iremos a nuestra carpeta del nodo y bucaremos el archivo ".cookie", y haciendo click derecho seleccionaremos "copiar como ruta de acceso". Posteriormente volveremos a nuestro cmd donde obtuvimos este error y escribiremos lo siguiente: "bitcoin-cli -rpccookiefile=(aquí haremos crtl+V) getblockcount". Esto nos devolvería el bloque hasta el que hemos indexado, que una vez más ha de coincidir con el mempool. Debería lucir así:
+  
+  ![image](https://user-images.githubusercontent.com/114155448/226607028-5ea9129d-6bfd-458c-94f0-df28d8d231d9.png)
+
+Una vez hecho esto, tendremos nuestro nodo completamente indexado. Bravo!!
+
+
+
+   
     
