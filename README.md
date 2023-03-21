@@ -75,7 +75,7 @@ Cuando el paso sea exitoso, recibiremos una clave pnemotécnica que deberemos gu
 
 Ahora vamos a indexar los bloques desde ord wallet. Este paso es necesario ya que ord wallet hace un tracking de cada satoshi contenido en la cadena de bloques, pues son éstos los que llevarán inscritos nuestros Ordinals. Para ello, en la consola escribiremos: "ord wallet balance". Este paso lleva de nuevo bastantes horas, por lo que recomendamos dejarlo correr en segundo plano mientras hace la indexación. Lucirá como sigue:
 
-![image](https://user-images.githubusercontent.com/114155448/226623905-c8a57478-32da-45ed-9d47-77c7c53ca834.png)
+![image](https://user-images.githubusercontent.com/114155448/226726918-29d7a79b-3a4b-4f9e-824e-78d3ba37c8a4.png)
 
 Una vez los bloques han sido indexados, recibiremos la respuesta del balance que debería ser "D:\Bitcoin24\ord>ord wallet balance
 
