@@ -18,7 +18,7 @@ Una vez éste sea instalado, podemos ejecutar Bitcoin Core directamente, es muy 
     <img width="33%" src="[https://i.stack.imgur.com/RJj4x.png](https://user-images.githubusercontent.com/114155448/226586134-9a6c51e0-42a4-44e3-9334-ce785caa2570.png)"> 
 </p>
 
-![image](https://user-images.githubusercontent.com/114155448/226586134-9a6c51e0-42a4-44e3-9334-ce785caa2570.png)
+
 
   - Pulsamos OK y normalmente saltará el firewall de Windows. Hemos de permitir acceso.
 
